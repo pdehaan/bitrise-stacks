@@ -1,0 +1,32 @@
+{
+  "name": "bitrise-stacks",
+  "description": "Fetch and filter latest Bitrise xcode stacks.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bin": {
+    "bitrise-stacks": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/pdehaan/bitrise-stacks/issues"
+  },
+  "dependencies": {
+    "arg": "^4.1.3",
+    "axios": "^0.21.0",
+    "semver": "^7.3.2",
+    "sort-json": "^2.0.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/bitrise-stacks#readme",
+  "keywords": ["bitrise"],
+  "license": "MPL-2.0",
+  "main": "lib.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/bitrise-stacks.git"
+  },
+  "scripts": {
+    "start": "./cli.js",
+    "test": "node test"
+  }
+}
